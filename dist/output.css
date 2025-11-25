@@ -261,9 +261,6 @@
   .h-\[42px\] {
     height: 42px;
   }
-  .h-\[350px\] {
-    height: 350px;
-  }
   .h-\[380px\] {
     height: 380px;
   }
@@ -279,17 +276,11 @@
   .w-\[320px\] {
     width: 320px;
   }
-  .w-\[400px\] {
-    width: 400px;
-  }
   .w-full {
     width: 100%;
   }
   .max-w-\[320px\] {
     max-width: 320px;
-  }
-  .max-w-\[400px\] {
-    max-width: 400px;
   }
   .list-inside {
     list-style-position: inside;
@@ -330,14 +321,8 @@
   .gap-4 {
     gap: calc(var(--spacing) * 4);
   }
-  .gap-5 {
-    gap: calc(var(--spacing) * 5);
-  }
   .gap-6 {
     gap: calc(var(--spacing) * 6);
-  }
-  .gap-10 {
-    gap: calc(var(--spacing) * 10);
   }
   .gap-15 {
     gap: calc(var(--spacing) * 15);
@@ -347,13 +332,6 @@
       --tw-space-y-reverse: 0;
       margin-block-start: calc(calc(var(--spacing) * 3) * var(--tw-space-y-reverse));
       margin-block-end: calc(calc(var(--spacing) * 3) * calc(1 - var(--tw-space-y-reverse)));
-    }
-  }
-  .space-y-5 {
-    :where(& > :not(:last-child)) {
-      --tw-space-y-reverse: 0;
-      margin-block-start: calc(calc(var(--spacing) * 5) * var(--tw-space-y-reverse));
-      margin-block-end: calc(calc(var(--spacing) * 5) * calc(1 - var(--tw-space-y-reverse)));
     }
   }
   .space-y-10 {
@@ -369,9 +347,6 @@
       margin-inline-start: calc(calc(var(--spacing) * 3) * var(--tw-space-x-reverse));
       margin-inline-end: calc(calc(var(--spacing) * 3) * calc(1 - var(--tw-space-x-reverse)));
     }
-  }
-  .overflow-hidden {
-    overflow: hidden;
   }
   .overflow-y-auto {
     overflow-y: auto;
@@ -520,9 +495,6 @@
   .text-pink-800 {
     color: var(--color-pink-800);
   }
-  .text-pink-950 {
-    color: var(--color-pink-950);
-  }
   .text-red-500 {
     color: var(--color-red-500);
   }
@@ -664,24 +636,9 @@
       width: 350px;
     }
   }
-  .md\:w-\[550px\] {
-    @media (width >= 48rem) {
-      width: 550px;
-    }
-  }
-  .md\:w-\[700px\] {
-    @media (width >= 48rem) {
-      width: 700px;
-    }
-  }
   .md\:w-auto {
     @media (width >= 48rem) {
       width: auto;
-    }
-  }
-  .md\:max-w-\[550px\] {
-    @media (width >= 48rem) {
-      max-width: 550px;
     }
   }
   .md\:max-w-\[700px\] {
