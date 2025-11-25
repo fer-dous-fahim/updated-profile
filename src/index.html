@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <section">
+        <!-- Navbar -->
+        <header class="w-full px-4 py-3 flex justify-between items-center">
+            
+            <!-- Logo -->
+            <div class="w-[105px] h-[42px]">
+                <img src="/Images/sign.png" alt="sign">
+            </div>
+
+            <!-- Mobile menu button -->
+            <button id="menu-btn" class="md:hidden text-blue-600 text-3xl">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Nav links -->
+            <nav
+                id="menu"
+                class="absolute left-0 top-[-300px] mr-10 w-full bg-white text-center z-50
+                    transition-all duration-500 md:static md:w-auto md:bg-transparent md:top-0"
+            >
+                <ul class="flex flex-col md:flex-row gap-4 md:gap-8 p-4 md:p-0">
+                    <li><a class="hover:text-blue-600 hover:font-bold duration-300 ease-in-out" href="/">Home</a></li>
+                    <li><a class="hover:text-blue-600 hover:font-bold duration-300 ease-in-out" href="/profile">Profile</a></li>
+                    <li><a class="hover:text-blue-600 hover:font-bold duration-300 ease-in-out" href="/About">About</a></li>
+                    <li><a class="hover:text-blue-600 hover:font-bold duration-300 ease-in-out" href="/Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    </section>
+    <section>
+         <div class="bg-auto bg-[linear-gradient(rgba(0,0,255,0.5),rgba(0,0,255,0.5)),url('/Images/code.jpg')]
+            flex flex-col justify-center relative">
+            <!--details box-->
+            <div class="flex flex-col justify-center text-center md:text-left
+             p-4 md:p-6 space-x-3 gap-2 md:gap-4
+             bg-white bg-cover rounded-bl-[60px] rounded-br-[60px]">
+                <h2 class="text-blue-950 text-4xl md:text-8xl font-bold md:ml-5">MERN STACK</h2>
+                <h3 class="text-shadow-black text-xl md:text-5xl font-semibold md:ml-5">TRYING TO BE A DEVELOPER</h3>
+                <h1 class="text-black text-2xl md:text-6xl font-bold md:ml-5">INTERACTIVE CARES</h1>
+            </div>
+            <!--Image box-->
+            <div class="md:absolute md:top-5 mb-0 md:right-20">
+                <img src="/Images/mypic.png"  alt="mypicture" /> 
+            </div>
+
+            <!--description box-->
+            <div class="flex flex-col md:flex-row justify-center items-center md:items-start md:justify-start
+            text-center bg-white rounded-tr-[60px] rounded-tl-[60px] w-full
+            md:mt-10 gap-3">
+                <div class="h-[26px] md:h-[38px] w-[250px] md:w-[350px] mt-3 md:ml-45 flex justify-end bg-blue-950">
+                    <div class="p-0.5 md:p-2 h-[26px] md:h-[38px] w-[230px] md:w-[330px] bg-sky-500 font-semibold">Ferdous Ahmed Fahim</div>
+                </div>
+                <div class="h-[26px] md:h-[38px] w-[250px] md:w-[350px] mt-3 md:mt-10 flex justify-start bg-blue-950">
+                    <div class="p-0.5 md:p-2 h-[26px] md:h-[38px] w-[230px] md:w-[330px] bg-sky-500 font-semibold">Email: fahim99132@gmail.com</div>
+                </div>
+            </div>
+         </div>
+    </section>
+
+    <section>
+        <!-- Social Links -->
+    <div class="flex justify-center mt-10">
+    <div class="flex bg-gray-700 font-bold rounded-md">
+        <ul class="flex justify-center gap-4 m-4 p-2 text-pink-400">
+        <li class="m-2 rounded-2xl hover:text-yellow-500">
+            <a href="https://www.facebook.com/?_rdc=2&_rdr#" target="_blank">Facebook</a>
+        </li>
+        <li class="m-2 rounded-2xl hover:text-yellow-500">
+            <a href="https://github.com/ferd-0us" target="_blank">GitHub</a>
+        </li>
+        <li class="m-2 rounded-2xl hover:text-yellow-500">
+            <a href="https://www.linkedin.com/in/ferdous-fahim-263659262/" target="_blank">Linkedin</a>
+        </li>
+        </ul>
+    </div>
+    </div>
+
+    <!-- Info + Skills Section -->
+    <div class="mt-5 flex justify-evenly flex-wrap gap-6 mb-5">
+
+    <!-- Information Box 1 -->
+<div class="mt-5 flex flex-col md:flex-row justify-between flex-wrap gap-15">
+
+    <!-- Information Box 1 -->
+    <div class="grid items-center w-[320px] h-[380px] overflow-y-auto">
+        <div class="text-pink-400 border-y-4 border-pink-400 p-4 rounded-md">
+        <h1 class="text-xl flex justify-center font-extrabold mb-2">Information</h1>
+        <ul class="space-y-3">
+
+            <li class="px-3 py-1 bg-gray-800 rounded hover:bg-pink-500 hover:text-white transition-colors">
+            Name: Ferdous Fahim
+            </li>
+            <li class="px-3 py-1 bg-gray-800 rounded hover:bg-pink-500 hover:text-white transition-colors">
+            Email: fahim99132@gmail.com
+            </li>
+            <li class="px-3 py-1 bg-gray-800 rounded hover:bg-pink-500 hover:text-white transition-colors">
+            Phone Number: 01610385692
+            </li>
+            <li class="px-3 py-1 bg-gray-800 rounded hover:bg-pink-500 hover:text-white transition-colors">
+            Address: Dhaka
+            </li>
+            <li class="px-3 py-1 bg-gray-800 rounded hover:bg-pink-500 hover:text-white transition-colors">
+            Birthday: Bogura
+            </li>
+            <li class="px-3 py-1 bg-gray-800 rounded hover:bg-pink-500 hover:text-white transition-colors">
+            Gender: Male
+            </li>
+
+        </ul>
+        </div>
+    </div>
+
+    <!-- Skills / Proficiency Box -->
+    <div class="grid items-center w-[320px] h-[380px] overflow-y-auto">
+        <div class="text-pink-400 border-y-4 border-pink-400 p-4 rounded-md">
+        <h1 class="text-xl flex justify-center font-extrabold mb-2">Proficiency</h1>
+        <ul class="space-y-3">
+
+            <li class="px-3 py-1 bg-gray-800 rounded hover:bg-pink-500 hover:text-white transition-colors">
+            Languages: HTML, CSS (Tailwind & Raw CSS with Responsive Design), JavaScript
+            </li>
+            <li class="px-3 py-1 bg-gray-800 rounded hover:bg-pink-500 hover:text-white transition-colors">
+            Libraries: React.js, React Router
+            </li>
+            <li class="px-3 py-1 bg-gray-800 rounded hover:bg-pink-500 hover:text-white transition-colors">
+            Build Tools: Webpack, Create React App
+            </li>
+            <li class="px-3 py-1 bg-gray-800 rounded hover:bg-pink-500 hover:text-white transition-colors">
+            Version Control: GitHub
+            </li>
+            <li class="px-3 py-1 bg-gray-800 rounded hover:bg-pink-500 hover:text-white transition-colors">
+            Others: Basic Node.js, Styled Components
+            </li>
+
+        </ul>
+        </div>
+    </div>
+
+    <!-- Information Box 2 -->
+        <div class="grid items-center w-[320px] h-[380px] overflow-y-auto">
+                <div class="text-pink-400 border-y-4 border-pink-400 p-4 rounded-md">
+                <h1 class="text-xl flex justify-center font-extrabold mb-2">About</h1>
+                <ul class="space-y-3">
+
+                    <li class="px-3 py-1 bg-gray-800 rounded hover:bg-pink-500 hover:text-white transition-colors">
+                    Learning to Code
+                    </li>
+                    <li class="px-3 py-1 bg-gray-800 rounded hover:bg-pink-500 hover:text-white transition-colors">
+                    Email: fahim99132@gmail.com
+                    </li>
+                    <li class="px-3 py-1 bg-gray-800 rounded hover:bg-pink-500 hover:text-white transition-colors">
+                    Phone Number: 01610385692
+                    </li>
+                    <li class="px-3 py-1 bg-gray-800 rounded hover:bg-pink-500 hover:text-white transition-colors">
+                    Address: Dhaka
+                    </li>
+                    <li class="px-3 py-1 bg-gray-800 rounded hover:bg-pink-500 hover:text-white transition-colors">
+                    Birthday: Bogura
+                    </li>
+                    <li class="px-3 py-1 bg-gray-800 rounded hover:bg-pink-500 hover:text-white transition-colors">
+                    Gender: Male
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="space-y-10 text-center px-4">
+        <h1 class="text-5xl text-red-500 font-bold mt-10">Work Experience</h1>
+
+        <!-- CLOCK BOX -->
+        <div class="flex flex-col md:flex-row items-center md:items-start 
+            justify-center md:justify-between gap-6 mt-10 mb-10">
+
+            <video 
+                class="w-full max-w-[320px] h-80 md:max-w-[700px] md:h-[420px] object-fill rounded-lg shadow"
+                controls>
+                <source src="/videos/clock 4.webm" />
+            </video>
+
+            <div class="flex flex-col gap-4 md:gap-10 md:w-1/2 text-left md:text-left">
+                <h1 class="font-bold text-2xl md:text-4xl text-pink-800 text-center md:text-left">
+                    Digital Clock with Analog Version
+                </h1>
+                <p class="font-thin text-sm md:text-2xl">
+                    This idea has arised in my mind when I was learning React event target to see how 
+                    input information works. Then I learned radius and pi to give each number a degree 
+                    which created a circle.
+                </p>
+                <ul class="list-disc list-inside font-medium">
+                    <li>Learned key concept of radius and pi</li>
+                    <li>Learned input method of React</li>
+                    <li>Learned DOM perfectly</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- FILM BOX -->
+        <div class="flex flex-col md:flex-row-reverse items-center md:items-start 
+            justify-center md:justify-between gap-6 mt-10 mb-10">
+
+            <img 
+                class="w-full max-w-[320px] h-80 md:max-w-[700px] md:h-[420px] object-fill rounded-lg shadow"
+                src="/Images/film.png"
+                alt="film"
+            />
+
+            <div class="flex flex-col gap-4 md:gap-10 md:w-1/2 text-left md:text-left">
+                <h1 class="font-bold text-2xl md:text-4xl text-pink-800 text-center md:text-left">
+                    Film Website Front Page
+                </h1>
+                <p class="font-thin text-sm md:text-2xl">
+                    My first task from a company, given as an exam to complete in 3 days. 
+                    I completed it in 2 days. This is a film website front page design for desktop.
+                </p>
+                <ul class="list-disc list-inside font-medium">
+                    <li>Cleared my doubt about Flex & Grid</li>
+                    <li>Understood all 5 positions clearly</li>
+                    <li>Learned linear-gradient for the first time</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <script>
+        const btn = document.getElementById("menu-btn");
+        const menu = document.getElementById("menu");
+        const icon = document.getElementById("menu-icon");
+
+        let open = false;
+
+        btn.addEventListener("click", () => {
+            open = !open;
+
+            menu.style.top = open ? "60px" : "-300px";
+
+            icon.innerHTML = open
+            ? '<i class="fa-solid fa-xmark"></i>'
+            : '<i class="fa-solid fa-bars"></i>';
+        });
+    </script>
+
+
+</body>
+</html>
